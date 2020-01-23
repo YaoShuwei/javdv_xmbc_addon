@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="metadata.javdb"
+       name="javdb"
+       version="0.0.1"
+       provider-name="temp">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.movies"
+             language="zh"
+             library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">JavDB Moive Scraper</summary>
+    <summary lang="zh">javDB电影刮削器</summary>
+    <description lang="en">Download movie infomation from javdb.com</description>
+    <description lang="zh">从javdb.com获取电影封面、演员、电影分类等资料</description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=64250</forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/YaoShuwei/javdb-addons/tree/master/metadata.javdb.com</source>
+  </extension>
+</addon>
+</addons>
